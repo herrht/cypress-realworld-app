@@ -1,0 +1,30 @@
+# Node artifacts
+node_modules
+npm-debug.log*
+yarn-error.log*
+
+# Build outputs / coverage
+dist
+build
+coverage
+.nyc_output
+
+# Tooling caches
+.vite
+.cache
+.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea
+.vscode
+
+# Git internals (not needed in image)
+.git
+
+# Docker files themselves
+Dockerfile
+docker-compose*.yml
